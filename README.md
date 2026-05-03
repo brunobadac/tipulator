@@ -1,6 +1,6 @@
 # Tipulator 💰
 
-A simple tip calculator web app built with HTML, CSS, and JavaScript.
+A simple tip calculator web app built with HTML, CSS, and JavaScript. Developed as part of a challenge from Code Institute.
 
 ## 🚀 Features
 
