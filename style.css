@@ -1,1 +1,94 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
+/* Base styles */
+body {
+    background-image: url("https://codeinstitute.s3.amazonaws.com/l3assets/js/cafe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Headings */
+h1, h2 {
+    color: darkslategrey;
+}
+
+/* Hover transition for heading */
+#heading {
+    transition: 1s;
+}
+
+/* Main container */
+#tipulator-wrapper {
+    max-width: 400px;
+    margin: 15px;
+    padding: 8px 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 25px;
+    transition: 2s; /* used for movement animation */
+}
+
+/* Spacing */
+#tipulator-wrapper > p {
+    margin-bottom: 32px;
+}
+
+form > div {
+    margin: 1rem 0;
+}
+
+/* Inputs */
+input {
+    height: 30px;
+    margin: 8px;
+    padding: 3px 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
+/* Submit button */
+button[type="submit"] {
+    font-size: 20px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: 2px solid darkgreen;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Results text */
+#results > p {
+    font-weight: bold;
+}
+
+/* Control buttons */
+#closeButton,
+#rightButton,
+#leftButton {
+    font-size: 20px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: darkorange;
+    color: white;
+    font-weight: bold;
+    border: 2px solid darkorange;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Controls container */
+#controls {
+    text-align: left;
+    margin-left: 15px;
+}
